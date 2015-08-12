@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="art" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="912px" height="342px" viewBox="0 0 912 342" enable-background="new 0 0 912 342" xml:space="preserve">
+<rect y="320" fill="#F3E3D5" width="912" height="20"/>
+<rect fill="#F3E3D5" width="912" height="40"/>
+<rect y="80" fill="#F3E3D5" width="912" height="40"/>
+<rect y="160" fill="#F3E3D5" width="912" height="40"/>
+<rect y="240" fill="#F3E3D5" width="912" height="40"/>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="-9" y="-1" width="930" height="342.5"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<polyline clip-path="url(#SVGID_2_)" fill="none" stroke="#808285" stroke-width="2" points="113.993,340.265 285,264 456,255.115 
+		798.56,245 	"/>
+</g>
+<line fill="none" stroke="#FAB57E" stroke-width="2" stroke-dasharray="9.987,4.987" x1="122.135" y1="334.492" x2="278.893" y2="223.331"/>
+<line fill="none" stroke="#FAB57E" stroke-width="2" stroke-dasharray="9.764,4.764" x1="294.462" y1="217.119" x2="448.875" y2="186.416"/>
+<line fill="none" stroke="#FAB57E" stroke-width="2" stroke-dasharray="9.954,4.954" x1="465.922" y1="184.566" x2="791.113" y2="170.375"/>
+<g>
+	<defs>
+		<rect id="SVGID_3_" x="-9" y="-1" width="930" height="342.5"/>
+	</defs>
+	<clipPath id="SVGID_4_">
+		<use xlink:href="#SVGID_3_"  overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_4_)" fill="none" stroke="#FAB57E" stroke-width="2" d="M793.588,170.267l4.972-0.217 M451.212,185.952
+		L456,185l4.972-0.217 M280.927,221.889L285,219l4.789-0.951 M113.993,340.265l4.073-2.888"/>
+	<polyline clip-path="url(#SVGID_4_)" fill="none" stroke="#F9A25E" stroke-width="2" points="113.993,340.265 285,172 456,163 
+		798.56,153.775 	"/>
+	<line clip-path="url(#SVGID_4_)" fill="none" stroke="#F9A25E" stroke-width="3" x1="0" y1="340" x2="912" y2="340"/>
+</g>
+</svg>

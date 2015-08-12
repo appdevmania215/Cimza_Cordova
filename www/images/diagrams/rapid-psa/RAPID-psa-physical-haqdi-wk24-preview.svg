@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="x-axis" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="912px" height="342px" viewBox="0 0 912 342" enable-background="new 0 0 912 342" xml:space="preserve">
+<rect y="320" fill="#F3E3D5" width="912" height="20"/>
+<rect fill="#F3E3D5" width="912" height="40"/>
+<rect y="80" fill="#F3E3D5" width="912" height="40"/>
+<rect y="160" fill="#F3E3D5" width="912" height="40"/>
+<rect y="240" fill="#F3E3D5" width="912" height="40"/>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="-9" y="-1" width="930" height="342.5"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<polyline clip-path="url(#SVGID_2_)" fill="none" stroke="#808285" stroke-width="2" stroke-linecap="round" points="
+		113.863,339.36 142.388,298 171.394,291 227.903,291 284.914,278 341.927,279 399,280 456,278 513,281 569.971,278.218 627,277 
+		684,277 798,277 	"/>
+	<polyline clip-path="url(#SVGID_2_)" fill="none" stroke="#F9A25E" stroke-width="2" stroke-linecap="round" points="
+		113.993,340.265 142.5,275 171.503,250 228.008,216 285.012,177 342.018,175 399.021,163 456.029,162 513.034,154 570.039,151.781 
+		627.044,133 684.05,133 798.56,133 	"/>
+	<line clip-path="url(#SVGID_2_)" fill="none" stroke="#F9A25E" stroke-width="3" x1="0" y1="340" x2="912" y2="340"/>
+</g>
+</svg>

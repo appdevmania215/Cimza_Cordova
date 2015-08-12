@@ -1,0 +1,463 @@
+<!doctype html>
+<html>
+<head>
+	<title>Cimzia Detail Aid</title>
+	<meta name="viewport" content="initial-scale=1, minimum-scale=1,maximum-scale=1, user-scalable=0, width=device-width"/> 	
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/jquery.fullPage.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="cordova.js"></script>
+</head>
+
+<body>
+	<svg style="display: none;">
+	<symbol id="references" width="26.482px" height="20px" viewBox="0 0 26.482 20" enable-background="new 0 0 26.482 20" xml:space="preserve">
+	<path d="M26.347,3.527c-0.676-0.675-1.408-1.242-2.177-1.684l-0.204-0.118V0.654c0-0.227-0.163-0.419-0.387-0.457
+		C22.805,0.067,22.034,0,21.287,0c-4.069,0-6.642,1.882-7.812,3.003l-0.246,0.236l-0.275-0.201c-1.187-0.864-3.609-2.315-6.511-2.315
+		c-2.324,0-4.446,0.943-6.308,2.803C0.048,3.614,0,3.731,0,3.854V19.15c0,0.157,0.084,0.308,0.22,0.393
+		c0.073,0.045,0.158,0.068,0.245,0.068c0.071,0,0.142-0.016,0.205-0.047c0.021-0.012,2.322-1.135,5.684-1.135
+		c2.28,0,4.519,0.508,6.659,1.512l0.033,0.016c0.025,0.012,0.054,0.021,0.101,0.033c0.024,0.004,0.05,0.009,0.073,0.01h0.027
+		c0.024-0.001,0.049-0.004,0.074-0.008l0.029-0.004c0.09-0.008,0.172-0.037,0.239-0.088l0.035-0.024l0.04-0.019
+		c2.083-0.947,4.258-1.427,6.463-1.427c3.214,0,5.433,1.015,5.685,1.134c0.063,0.032,0.134,0.049,0.206,0.049
+		c0.086,0,0.17-0.023,0.244-0.069c0.138-0.086,0.22-0.233,0.22-0.394V3.855C26.482,3.733,26.433,3.613,26.347,3.527z M12.776,18.81
+		l-0.553-0.212c-1.897-0.727-3.873-1.096-5.87-1.096c-2.117,0-3.829,0.415-4.893,0.762l-0.534,0.174V4.047l0.129-0.121
+		c1.615-1.509,3.427-2.275,5.387-2.275c2.854,0,5.269,1.606,6.175,2.297l0.159,0.122V18.81z M13.777,18.371V4.017l0.112-0.118
+		c0.666-0.697,3.169-2.971,7.397-2.971c0.454,0,0.921,0.026,1.39,0.079l0.362,0.04V15.39l-0.442-0.036
+		c-0.303-0.025-0.615-0.039-0.927-0.039c-1.51,0-4.459,0.329-7.232,2.531L13.777,18.371z M25.556,18.438l-0.534-0.174
+		c-1.063-0.347-2.775-0.761-4.893-0.761c-0.56,0-1.144,0.032-1.736,0.097c-1.427,0.096-2.576,0.508-3.627,0.96
+		c1.585-1.343,3.452-1.751,3.452-1.751c1.106-0.376,2.268-0.566,3.452-0.566c0.948,0,1.593,0.129,1.687,0.15l0.037,0.008
+		c0.035,0.008,0.072,0.012,0.108,0.012c0.104,0,0.206-0.035,0.287-0.098c0.111-0.09,0.177-0.223,0.177-0.365V2.595l0.68,0.614
+		c0.265,0.238,0.526,0.479,0.78,0.717l0.13,0.121V18.438z"/>
+	</symbol>
+	<symbol id="to-ra-story" width="40px" height="40px" viewBox="0 0 40 40">
+		<path d="M16.012,20.697c1.621-0.195,2.46-1.171,2.46-2.895c0-1.006-0.391-1.846-1.034-2.355
+			c-0.659-0.51-1.516-0.602-2.669-0.602h-2.432v10.727h1.635v-4.801h0.195l3.57,4.801H19.7L16.012,20.697z M14.078,19.422v-3.074
+			h0.313c1.561,0,2.296,0.285,2.296,1.605c0,1.289-0.766,1.469-2.296,1.469H14.078z"/>
+		<path d="M24.472,14.428l-5.19,11.145h1.829l1.246-2.76h4.245l1.216,2.76h1.846L24.472,14.428z M23.003,21.359
+			l1.095-2.446c0.12-0.285,0.254-0.675,0.39-1.215c0.15,0.54,0.285,0.931,0.406,1.215l1.094,2.446H23.003z"/>
+	</symbol>
+	<symbol id="to-as-story" width="40px" height="40px" viewBox="0 0 40 40">
+		<path d="M28.269,22.293c0,1.979-1.334,3.291-3.551,3.291c-1.826,0-3.025-0.863-3.385-2.414l1.393-0.639
+			c0.254,0.955,0.973,1.459,2.066,1.459c1.049,0,1.693-0.625,1.693-1.578c0-1.041-0.795-1.297-1.902-1.833
+			c-1.903-0.923-2.95-1.638-2.95-3.246c0-1.713,1.273-2.918,3.219-2.918c1.587,0,2.683,0.64,3.085,1.757l-1.363,0.701
+			c-0.418-0.656-0.913-0.968-1.586-0.968c-0.943,0-1.529,0.536-1.529,1.34c0,1.028,0.839,1.34,2.037,1.891
+			C27.386,20,28.269,20.759,28.269,22.293"/>
+		<path d="M15.914,14.468l-5.183,11.064h1.827l1.243-2.74h4.237l1.214,2.74h1.844L15.914,14.468z M14.446,21.347
+			l1.093-2.427c0.12-0.282,0.255-0.671,0.388-1.206c0.151,0.535,0.287,0.924,0.406,1.206l1.092,2.427H14.446z"/>
+	</symbol>
+	<symbol id="to-psa-story" width="40px" height="40px" viewBox="0 0 40 40">
+		<path d="M26.297,14.361l-5.181,10.998h1.826l1.242-2.724h4.24l1.213,2.724h1.842L26.297,14.361z M24.829,21.198
+			l1.093-2.412c0.12-0.28,0.254-0.666,0.388-1.199c0.151,0.533,0.287,0.917,0.406,1.199l1.094,2.412H24.829z"/>
+		<path d="M17.372,20.223c0,0.667,0.75,0.77,1.827,1.199c1.215,0.473,1.783,1.036,1.783,2.028
+			c0,1.331-1.019,2.19-2.831,2.19c-1.346,0-2.23-0.488-2.74-1.526l1.317-0.708c0.194,0.68,0.72,1.051,1.557,1.051
+			c0.72,0,1.139-0.356,1.139-0.903c0-0.71-0.689-0.77-1.648-1.168c-1.319-0.549-1.992-1.081-1.992-2.075
+			c0-1.182,1.004-2.056,2.651-2.056c1.093,0,1.872,0.415,2.217,1.123l-1.123,0.771c-0.166-0.429-0.598-0.711-1.153-0.711
+			C17.761,19.438,17.372,19.75,17.372,20.223"/>
+		<path d="M13.837,15.326c-0.72-0.521-1.587-0.55-2.68-0.55H8.521v10.583h1.633v-4.75h1.003
+			c1.093,0,1.961-0.029,2.681-0.532c0.659-0.474,1.078-1.361,1.078-2.383C14.916,16.669,14.498,15.797,13.837,15.326z M10.708,19.201
+			h-0.45v-2.947h0.45c1.617,0,2.41,0.267,2.41,1.541C13.119,19.024,12.311,19.201,10.708,19.201z"/>
+	</symbol>
+	</svg>
+	<!-- fixed heading (appears on page 2) -->
+	<header id="heads">
+		<div class="cols_wrap">
+			<div class="colspan_3">
+				<a href="ra-story.html"><img src="images/comparisons/comparison-nav-ellen.png"></a>
+				<a href="ra-story.html"><div class="button_clear starburst_orange">RA</div></a>
+			</div>
+			<div class="colspan_3">
+				<a href="as-story.html"><img src="images/comparisons/comparison-nav-ben.png"></a>
+				<a href="as-story.html"><div class="button_clear starburst_orange">AS</div></a>
+			</div>
+			<div class="colspan_3">
+				<a href="psa-story.html"><img src="images/comparisons/comparison-nav-sophia.png"></a>
+				<a href="psa-story.html"><div class="button_clear starburst_orange">PsA</div></a>
+			</div>
+		</div>
+	</header>
+
+	<div id="comparisons" class="comparisons_wrap">
+		<!-- Landing page (Home) -->
+		<div class="section comparisons_intro" style="background-image:url(images/backgrounds/home-hero.jpg);">
+			<img class="home_header_logo" src="images/logo-scallop.png"/>
+			<div class="cols_wrap header_padding">
+				<a href="ra-story.html"><img src="images/logotype-ellen-ra.svg"></a>
+				<a href="as-story.html"><img src="images/logotype-ben-as.svg"></a>
+				<a href="psa-story.html"><img src="images/logotype-sophia-psa.svg"></a>
+				<p class="landing-qualifier"><sup>#</sup>Hypothetical patient</p>
+			</div>
+			<div class="next_section">
+				Efficacy<br><img src="images/icons/down.svg"></svg>
+			</div>
+		</div>
+
+		<!-- EFFICACY SECTION -->
+		<div class="section comparisons">
+			<div class="top_bar">
+			</div>
+			<div class="cols_wrap">
+				<!-- Efficacy - RA -->
+				<div class="colspan_3">
+					<img src="images/comparisons/rapid-ra-preview.svg">
+					<div class="graph_title starburst_orange">
+						<h2>ACR20 Response</h2>
+						<p>(Efficacy to Week 24-52)</p>
+						<!-- POPUP *href need to have the id of the popup -->
+						<a href="#rapid-ra-comparison" class="open-popup-link magnify">
+							<img src="images/icons/magnify.svg">
+						</a>
+						<div id="rapid-ra-comparison" class="popup_container mfp-hide open_by_default ref_text_open">
+							<div class="graph_wrap">
+								<div class="graph_heading starburst_orange"><h1>RA - ACR20 Response</h1> <p>(Efficacy to Week 24-52)</p>
+								</div>
+								<!-- // interactive diagram // -->
+								<!-- 1. Background image needs be be linked to the map ie; usemap="#ASAS40map" -->
+								<!-- 2. The id of the revealed image is called by the areas 'data-markerimg' in the image map -->
+								<!-- 3. Area coords just need the x value modified, center of the maker from the left  -->
+								<img src="images/diagrams/rapid-ra/RAPID-ra-rapid-acr20-comparison-base.svg" usemap="#rapid-ra-comparison-map">
+								<img class="marker_img" id="rapid-ra-rapid-acr20-comparison-overlay" src="images/diagrams/rapid-ra/RAPID-ra-rapid-acr20-comparison-overlay.svg">
+								<map name="rapid-ra-comparison-map">
+									<area class="diagram_marker" id="ra_diagram" shape="circle" coords="90,20,20" href="#" data-markerimg="#rapid-ra-rapid-acr20-comparison-overlay">
+								</map>
+							</div>
+							<div class="reference_text_wrap">
+								<div class="reference_text">
+									<div class="starburst_orange">
+										<p><strong>Study Design</strong></p>
+										<p>RAPID-1 was a 52-week, phase III, multi-centre, double-blind, placebo-controlled trial with 982 RA patients randomised to Cimzia<sup>&reg;</sup> 400mg + MTX at 0, 2, and 4 weeks and thereafter 200mg Q2W or 400mg Q2W<sup>#</sup> + MTX or placebo + MTX (2:2:1). Co-primary endpoints were the ACR20 response at week 24 and the mTSS at week 52. Results reported as percentage of patients achieving ACR response.<sup>1</sup></p>
+										<p><sup>#</sup>Dosage not currently registered in Australia.</p>
+										<div class="white">
+											<p><strong>References</strong></p>
+											<p>1. Keystone E, van der Heijde D, Mason DH et al. Arthritis Rheum 2008; 58 (11): 3319-3329.</p>
+											<a class="clear_button" onclick="window.open('downloads/Keystone-ArthritisRheum-2008.pdf', '_blank', 'location=no');">Ref.1 Full Paper (PDF)</a>
+											2. Keystone E et al. J Rheumatol 2011; 38 (6): 990-996.</p>
+											<a class="clear_button" onclick="window.open('downloads/Keystone-JRhuematol-2011.pdf', '_blank', 'location=no');">Ref.2 Full Paper (PDF)</a>
+											3. Cimzia<sup>&reg;</sup> Approved Product Information, May 2014.</p>
+											<a class="clear_button" onclick="window.open('downloads/PI-CMI.pdf', '_blank', 'location=no');">Ref.3 Full Paper (PDF)</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- close button added via js -->
+							<a href="#" class="open_references open_refs_icon"><svg class="close"><use xlink:href="#references" /></svg></a>
+							<a href="ra-story.html" class="to-story"><svg class="close"><use xlink:href="#to-ra-story" /></svg></a>
+						</div>
+					</div>
+				</div>
+				<!-- Efficacy - AS -->
+				<div class="colspan_3">
+					<img src="images/comparisons/rapid-as-preview.svg">
+					<div class="graph_title starburst_orange">
+						<h2>ASAS40 Response</h2>
+						<p>(Efficacy to Week 24)</p>
+						<!-- POPUP *href need to have the id of the popup -->
+						<a href="#rapid-as-comparison" class="open-popup-link magnify">
+							<img src="images/icons/magnify.svg">
+						</a>
+						<div id="rapid-as-comparison" class="popup_container mfp-hide open_by_default ref_text_open">
+							<div class="graph_wrap">
+								<div class="graph_heading starburst_orange"><h1>AS - ASAS40 Response</h1> <p>(Efficacy to Week 24)</p>
+								</div>
+								<!-- // interactive diagram // -->
+								<!-- 1. Background image needs be be linked to the map ie; usemap="#ASAS40map" -->
+								<!-- 2. The id of the revealed image is called by the areas 'data-markerimg' in the image map -->
+								<!-- 3. Area coords just need the x value modified, center of the maker from the left  -->
+								<img src="images/diagrams/rapid-as/RAPID-as-rapid-asas40-comparison-base.svg" usemap="#rapid-as-comparison-map">
+								<img class="marker_img" id="rapid-as-rapid-asas40-comparison-overlay" src="images/diagrams/rapid-as/RAPID-as-rapid-asas40-comparison-overlay.svg">
+								<map name="rapid-as-comparison-map">
+									<area class="diagram_marker" id="as_diagram" shape="circle" coords="110,20,20" href="#" data-markerimg="#rapid-as-rapid-asas40-comparison-overlay">
+								</map>
+							</div>
+							<div class="reference_text_wrap">
+								<div class="reference_text">
+									<div class="starburst_orange">
+										<p><strong>Study Design</strong></p>
+										<p>RAPID-axSpA<sup>#</sup> was a multi-centre, randomised, double blind placebo controlled study in 325 patients &ge;18 years of age with adult onset axial SpA for at least 3 months. The majority of patients had active AS (n=178). Patients had active disease activity as defined by the BASDAI &ge;4 and spinal pain &ge;4 on a 0-10 NRS. Patients must have been intolerant to or had inadequate response to &ge;1 NSAID. Patients were treated with Cimzia<sup>&reg;</sup> 400mg 0, 2 and 4 weeks and thereafter 200mg Q2W or 400mg Q4W or with placebo (1:1:1). The primary outcome was ASAS20 response at week 12.<sup>1</sup></p>
+										<p><sup>#</sup>Cimzia<sup>&reg;</sup> is indicated for the treatment of adults with moderate to severe active RA, active AS and active PsA.</p>
+										<div class="white">
+											<p><strong>References</strong></p>
+											<p>1. Landew&#233; R, Braun J, Deodhar A et al. Ann Rheum Dis 2014; 73 (1): 39-47.</p>
+											<a class="clear_button" onclick="window.open('downloads/Landewe-AnnRheumDis-2014.pdf', '_blank', 'location=no');">Ref.1 Full Paper (PDF)</a>
+											<p>2. Data on File, UCB Australia Pty Ltd.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- close button added via js -->
+							<a href="#" class="open_references open_refs_icon"><svg><use xlink:href="#references" /></svg></a>
+							<a href="as-story.html" class="to-story"><svg class="close"><use xlink:href="#to-as-story" /></svg></a>
+						</div>
+					</div>
+				</div>
+				<!-- Efficacy - PsA -->
+				<div class="colspan_3">
+					<img src="images/comparisons/rapid-psa-preview.svg">
+					<div class="graph_title starburst_orange">
+						<h2>ACR20 Response</h2>
+						<p>(Efficacy to Week 24)</p>
+						<!-- POPUP *href need to have the id of the popup -->
+						<a href="#rapid-psa-comparison" class="open-popup-link magnify">
+							<img src="images/icons/magnify.svg">
+						</a>
+						<div id="rapid-psa-comparison" class="popup_container mfp-hide open_by_default ref_text_open">
+							<div class="graph_wrap">
+								<div class="graph_heading starburst_orange"><h1>PsA - ACR20 Response</h1> <p>(Efficacy to Week 24)</p>
+								</div>
+								<!-- // interactive diagram // -->
+								<!-- 1. Background image needs be be linked to the map ie; usemap="#ASAS40map" -->
+								<!-- 2. The id of the revealed image is called by the areas 'data-markerimg' in the image map -->
+								<!-- 3. Area coords just need the x value modified, center of the maker from the left  -->
+								<img src="images/diagrams/rapid-psa/RAPID-psa-rapid-acr20-comparison-base.svg" usemap="#rapid-psa-comparison-map">
+								<img class="marker_img" id="rapid-psa-rapid-acr20-comparison-overlay" src="images/diagrams/rapid-psa/RAPID-psa-rapid-acr20-comparison-overlay.svg">
+								<map name="rapid-psa-comparison-map">
+									<area class="diagram_marker" id="psa_diagram" shape="circle" coords="110,20,20" href="#" data-markerimg="#rapid-psa-rapid-acr20-comparison-overlay">
+								</map>
+							</div>
+							<div class="reference_text_wrap">
+								<div class="reference_text">
+									<div class="starburst_orange">
+										<p><strong>Study Design</strong></p>
+										<p>RAPID-PsA was a multi-centre study in 409 patients with adult-onset PsA of at least 6 months' duration who had failed &ge;1 DMARD (non-biologic or biologic). It was double-blind, placebo-controlled to week 24; dose-blind to week 48; then open label to week 216. Patients were treated with Cimzia<sup>&reg;</sup> 400mg 0, 2 and 4 weeks and thereafter 200 mg Q2W or 400 mg Q4W or with placebo (1:1:1). 19.8% of patients on Cimzia (combined doses) and 19.1% on placebo had previous exposure to &ge;1 anti-TNF. Primary endpoints were ACR20 response at week 12 and mTSS change from baseline at week 24<sup>#</sup> (<sup>#</sup>co-primary endpoint not met).<sup>1,2</sup></p>
+										<div class="white">
+											<p><strong>References</strong></p>
+											<p>1. Mease PJ, Fleischmann R, Deodhar AA et al. Ann Rheum Dis 2014; 73 (1): 48-55.</p>
+											<a class="clear_button" onclick="window.open('downloads/Mease-AnnRheumDis-2014.pdf', '_blank', 'location=no');">Ref.1 Full Paper (PDF)</a>
+											<p>2. van der Heijde D, Fleischmann R, Wollenhaupt J et al. Ann Rheum Dis 2014; 73 (1): 233-237.</p>
+											<a class="clear_button" onclick="window.open('downloads/vanderHeijde-AnnRheumDis-2014.pdf', '_blank', 'location=no');">Ref.2 Full Paper (PDF)</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- close button added via js -->
+							<a href="#" class="open_references open_refs_icon"><svg><use xlink:href="#references" /></a>
+							<a href="psa-story.html" class="to-story"><svg class="close"><use xlink:href="#to-psa-story" /></svg></a>
+						</div>
+					</div>
+				</div>
+				<p class="comparison-qualifier">No comparisons between indications intended</p>
+			</div>
+			<div class="next_section">
+				Prior Anti-TNF Use<br><img class="svg" src="images/icons/down.svg"></svg>
+			</div>
+		</div>
+
+		<!-- PRIOR ANTI-TNF USE SECTION -->
+		<div class="section comparisons">
+			<div class="top_bar">
+			</div>
+			<div class="cols_wrap">
+				<!-- Prior Anti-TNF Use - RA -->
+				<div class="colspan_3">
+					<img src="images/comparisons/prior-ra-preview.svg">
+					<div class="graph_title starburst_orange">
+						<h2>ACR20 Response</h2>
+						<p>(Prior Anti-TNF Use<br>to Week 12)</p>
+						<!-- POPUP *href need to have the id of the popup -->
+						<a href="#prior-ra-comparison" class="open-popup-link magnify">
+							<img src="images/icons/magnify.svg">
+						</a>
+						<div id="prior-ra-comparison" class="popup_container mfp-hide open_by_default ref_text_open">
+							<div class="graph_wrap">
+								<div class="graph_heading starburst_orange"><h1>RA - ACR20 Response</h1> <p>(Prior Anti-TNF Use to Week 12)</p>
+								</div>
+								<img src="images/diagrams/realistic/REALISTIC-ra-priortnf-acr20-wk12.svg">
+							</div>
+							<div class="reference_text_wrap">
+								<div class="reference_text">
+									<div class="starburst_orange">
+										<p><strong>Study Design</strong></p>
+										<p>REALISTIC was a 12-week, double-blind period of a phase III study examining the efficacy and safety of Cimzia<sup>&reg;</sup> in 1,063 adult RA patients with an unsatisfactory response or intolerance to at least 1 non-biological DMARD. Patients may have received up to two previous anti-TNFs and were stratified by baseline MTX use, previous anti-TNF therapy and disease duration. Primary endpoint was ACR20 response at week 12.<sup>1</sup></p>
+										<div class="white">
+											<p><strong>Reference</strong></p>
+											<p>1. Weinblatt ME, Fleischmann R, Huizinga TWJ et al. Rheumatol 2012; 51: 2204-2214.</p>
+											<a class="clear_button" onclick="window.open('downloads/Weinblatt-Rheumatol-2012.pdf', '_blank', 'location=no');">Ref.1 Full Paper (PDF)</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- close button added via js -->
+							<a href="#" class="open_references open_refs_icon"><svg><use xlink:href="#references" /></a>
+							<a href="ra-story.html" class="to-story"><svg class="close"><use xlink:href="#to-ra-story" /></svg></a>
+						</div>
+					</div>
+				</div>
+				<!-- Prior Anti-TNF Use - AS -->
+				<div class="colspan_3">
+					<!-- empty comparison -->
+				</div>
+				<!-- Prior Anti-TNF Use - PsA -->
+				<div class="colspan_3">
+					<img src="images/comparisons/prior-psa-preview.svg">
+					<div class="graph_title starburst_orange">
+						<h2>ACR20 Response</h2>
+						<p>(Prior Anti-TNF Use<br>to Week 24)</p>
+						<!-- POPUP *href need to have the id of the popup -->
+						<a href="#prior-psa-comparison" class="open-popup-link magnify">
+							<img src="images/icons/magnify.svg">
+						</a>
+						<div id="prior-psa-comparison" class="popup_container mfp-hide open_by_default ref_text_open">
+							<div class="graph_wrap">
+								<div class="graph_heading starburst_orange"><h1>PsA - ACR20 Response</h1> <p>(Prior Anti-TNF Use to Week 24)</p></div>
+								<img src="images/diagrams/rapid-psa/RAPID-psa-priortnf-wk24.svg">
+							</div>
+							<div class="reference_text_wrap">
+								<div class="reference_text">
+									<div class="starburst_orange">
+										<p><strong>Study Design</strong></p>
+										<p>RAPID-PsA was a multi-centre study in 409 patients with adult-onset PsA of at least 6 months' duration who had failed &ge;1 DMARD (non-biologic or biologic). It was double-blind, placebo-controlled to week 24; dose-blind to week 48; then open label to week 216. Patients were treated with Cimzia<sup>&reg;</sup> 400mg 0, 2 and 4 weeks and thereafter 200 mg Q2W or 400 mg Q4W or with placebo (1:1:1). 19.8% of patients on Cimzia (combined doses) and 19.1% on placebo had previous exposure to &ge;1 anti-TNF. Primary endpoints were ACR20 response at week 12 and mTSS change from baseline at week 24<sup>#</sup> (<sup>#</sup>co-primary endpoint not met).<sup>1,2</sup></p>
+										<div class="white">
+											<p><strong>References</strong></p>
+											<p>1. Mease PJ, Fleischmann R, Deodhar AA et al. Ann Rheum Dis 2014; 73 (1): 48-55.</p>
+											<a class="clear_button" onclick="window.open('downloads/Mease-AnnRheumDis-2014.pdf', '_blank', 'location=no');">Ref.1 Full Paper (PDF)</a>
+											<p>2. van der Heijde D, Fleischmann R, Wollenhaupt J et al. Ann Rheum Dis 2014; 73 (1): 233-237.</p>
+											<a class="clear_button" onclick="window.open('downloads/vanderHeijde-AnnRheumDis-2014.pdf', '_blank', 'location=no');">Ref.2 Full Paper (PDF)</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- close button added via js -->
+							<a href="#" class="open_references open_refs_icon"><svg><use xlink:href="#references" /></a>
+							<a href="psa-story.html" class="to-story"><svg class="close"><use xlink:href="#to-psa-story" /></svg></a>
+						</div>
+					</div>
+				</div>
+				<p class="comparison-qualifier">No comparisons between indications intended</p>
+			</div>
+			<div class="next_section">
+				Physical Function<br><img class="svg" src="images/icons/down.svg"></svg>
+			</div>
+		</div>
+
+		<!-- PHYSICAL FUNCTION SECTION -->
+		<div class="section comparisons">
+			<div class="top_bar">
+			</div>
+			<div class="cols_wrap">
+				<!-- Physical Function - RA -->
+				<div class="colspan_3">
+					<img src="images/comparisons/physical-ra-preview.svg">
+					<div class="graph_title starburst_orange">
+						<h2>HAQ-DI Response</h2>
+						<p>(Physical Function to Week 24)</p>
+						<!-- POPUP *href need to have the id of the popup -->
+						<a href="#physical-ra-comparison" class="open-popup-link magnify">
+							<img src="images/icons/magnify.svg">
+						</a>
+						<div id="physical-ra-comparison" class="popup_container mfp-hide open_by_default ref_text_open">
+							<div class="graph_wrap">
+								<div class="graph_heading starburst_orange"><h1>RA - HAQ-DI Response</h1> <p>(Physical Function to Week 24)</p>
+								</div>
+								<img src="images/diagrams/rapid-ra/RAPID-ra-physical-haqdi-wk24+52.svg">
+							</div>
+							<div class="reference_text_wrap">
+								<div class="reference_text">
+									<div class="starburst_orange">
+										<p><strong>Study Design</strong></p>
+										<p>RAPID-1 was a phase III, double-blind, placebo-controlled trial with 982 RA patients randomised to Cimzia<sup>&reg;</sup> 400mg + MTX at 0, 2, and 4 weeks and thereafter 200mg Q2W or 400mg Q2W<sup>#</sup> + MTX or placebo + MTX (2:2:1). Patient reported outcomes (PROs) were secondary endpoints (co-primary endpoints were the ACR20 response at week 24 and the mTSS at week 52). <sup>1,2</sup></p>
+										<p><sup>#</sup>Dosage not currently registered in Australia.</p>
+										<div class="white">
+											<p><strong>References</strong></p>
+											<p>1. Strand V, Mease P, Burmester GR et al. Arthritis Res Ther 2009; 11: R170.</p>
+											<a class="clear_button" onclick="window.open('downloads/Strand-ArthritisResTher-2009.pdf', '_blank', 'location=no');">Ref.1 Full Paper (PDF)</a>
+											<p>2. Keystone E, van der Heijde D, Mason DH et al. Arthritis Rheum 2008; 58 (11): 3319-3329.</p>
+											<a class="clear_button" onclick="window.open('downloads/Keystone-ArthritisRheum-2008.pdf', '_blank', 'location=no');">Ref.2 Full Paper (PDF)</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- close button added via js -->
+							<a href="#" class="open_references open_refs_icon"><svg><use xlink:href="#references" /></a>
+							<a href="ra-story.html" class="to-story"><svg class="close"><use xlink:href="#to-ra-story" /></svg></a>
+						</div>
+					</div>
+				</div>
+				<!-- Physical Function - AS -->
+				<div class="colspan_3">
+					<img src="images/comparisons/physical-as-preview.svg">
+					<div class="graph_title starburst_orange">
+						<h2>BASFI Response</h2>
+						<p>(Physical Function to Week 24)</p>
+						<!-- POPUP *href need to have the id of the popup -->
+						<a href="#physical-as-comparison" class="open-popup-link magnify">
+							<img src="images/icons/magnify.svg">
+						</a>
+						<div id="physical-as-comparison" class="popup_container mfp-hide open_by_default ref_text_open">
+							<div class="graph_wrap">
+								<div class="graph_heading starburst_orange"><h1>AS - BASFI Response</h1> <p>(Physical Function to Week 24)</p></div>
+								<img src="images/diagrams/rapid-as/RAPID-as-physical-basfi-wk24.svg">
+							</div>
+							<div class="reference_text_wrap">
+								<div class="reference_text">
+									<div class="starburst_orange">
+										<p><strong>Study Design</strong></p>
+										<p>RAPID-axSpA<sup>#</sup> was a multi-centre, randomised, double blind placebo controlled study in 325 patients &ge;18 years of age with adult onset axial SpA for at least 3 months. The majority of patients had active AS (n=178). Patients had active disease activity as defined by the BASDAI &ge;4 and spinal pain &ge;4 on a 0-10 NRS. Patients must have been intolerant to or had inadequate response to &ge;1 NSAID. Patients were treated with Cimzia<sup>&reg;</sup> 400mg 0, 2 and 4 weeks and thereafter 200mg Q2W or 400mg Q4W or with placebo (1:1:1). The primary outcome was ASAS20 response at week 12.<sup>1</sup></p>
+										<p><sup>#</sup>Cimzia<sup>&reg;</sup> is indicated for the treatment of adults with moderate to severe active RA, active AS and active PsA.</p>
+										<div class="white">
+											<p><strong>References</strong></p>
+											<p>1. Landew&#233; R, Braun J, Deodhar A et al. Ann Rheum Dis 2014; 73 (1): 39-47.</p>
+											<a class="clear_button" onclick="window.open('downloads/Landewe-AnnRheumDis-2014.pdf', '_blank', 'location=no');">Ref.1 Full Paper (PDF)</a>
+											<p>2. Data on File, UCB Australia Pty Ltd.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- close button added via js -->
+							<a href="#" class="open_references open_refs_icon"><svg><use xlink:href="#references" /></a>
+							<a href="as-story.html" class="to-story"><svg class="close"><use xlink:href="#to-as-story" /></svg></a>
+						</div>
+					</div>
+				</div>
+				<!-- Physical Function - PsA -->
+				<div class="colspan_3">
+					<img src="images/comparisons/physical-psa-preview.svg">
+					<div class="graph_title starburst_orange">
+						<h2>HAQ-DI Response</h2>
+						<p>(Physical Function to Week 24)</p>
+						<!-- POPUP *href need to have the id of the popup -->
+						<a href="#physical-psa-comparison" class="open-popup-link magnify">
+							<img src="images/icons/magnify.svg">
+						</a>
+						<div id="physical-psa-comparison" class="popup_container mfp-hide open_by_default ref_text_open">
+							<div class="graph_wrap">
+								<div class="graph_heading starburst_orange"><h1>PsA - HAQ-DI Response</h1> <p>(Physical Function to Week 24)</p></div>
+								<img src="images/diagrams/rapid-psa/RAPID-psa-physical-haqdi-wk24.svg">
+							</div>
+							<div class="reference_text_wrap">
+								<div class="reference_text">
+									<div class="starburst_orange">
+										<p><strong>Study Design</strong></p>
+										<p>RAPID-PsA was a multi-centre study in 409 patients with adult-onset PsA of at least 6 months' duration who had failed &ge;1 DMARD (non-biologic or biologic). It was double-blind, placebo-controlled to week 24; dose-blind to week 48; then open label to week 216. Patients were treated with Cimzia<sup>&reg;</sup> 400mg 0, 2 and 4 weeks and thereafter 200 mg Q2W or 400 mg Q4W or with placebo (1:1:1). 19.8% of patients on Cimzia (combined doses) and 19.1% on placebo had previous exposure to &ge;1 anti-TNF. Primary endpoints were ACR20 response at week 12 and mTSS change from baseline at week 24<sup>#</sup> (<sup>#</sup>co-primary endpoint not met).<sup>1,2</sup></p>
+										<div class="white">
+											<p><strong>References</strong></p>
+											<p>1. Gladman D, Fleischmann R, Coteur G et al. Arthritis Care Res 2014; 66 (7): 1085-1092.</p>
+											<a class="clear_button" onclick="window.open('downloads/Gladman-ArthritisCareRes-2014.pdf', '_blank', 'location=no');">Ref.1 Full Paper (PDF)</a>
+											<p>2. Mease PJ, Fleischmann R, Deodhar AA et al. Ann Rheum Dis 2014; 73 (1): 48-55.</p>
+											<a class="clear_button" onclick="window.open('downloads/Mease-AnnRheumDis-2014.pdf', '_blank', 'location=no');">Ref.2 Full Paper (PDF)</a>
+											<p>3. van der Heijde D, Fleischmann R, Wollenhaupt J et al. Ann Rheum Dis 2014; 73 (1): 233-237.</p>
+											<a class="clear_button" onclick="window.open('downloads/vanderHeijde-AnnRheumDis-2014.pdf', '_blank', 'location=no');">Ref.3 Full Paper (PDF)</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- close button added via js -->
+							<a href="#" class="open_references open_refs_icon"><svg><use xlink:href="#references" /></a>
+							<a href="psa-story.html" class="to-story"><svg class="close"><use xlink:href="#to-psa-story" /></svg></a>
+						</div>
+					</div>
+				</div>
+				<p class="comparison-qualifier">No comparisons between indications intended</p>
+			</div>
+			<div class="backtotop">
+				TOP<br><img src="images/icons/up.svg"></svg>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="js/lib/jquery-1.11.2.min.js"></script>
+<script src="js/lib/jquery.magnific-popup.min.js"></script>
+<script src="js/lib/jquery.fullPage.min.js"></script>
+<script src="js/js.js"></script>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="310px"
+	 height="150px" viewBox="0 0 310 150" enable-background="new 0 0 310 150" xml:space="preserve">
+<g id="data">
+	<g>
+		<polyline fill="none" stroke="#F9A25E" stroke-width="1.5" points="32.925,128.433 37.837,97.312 42.402,84.548 51.879,74.401 
+			61.356,63.603 70.833,59.349 80.31,56.403 89.876,49.204 99.264,50.513 108.741,51.822 127.695,56.403 146.868,55.421 
+			170.383,56.076 184.555,58.039 205.855,60.985 222.463,60.33 260.371,61.966 279.498,61.639 		"/>
+		<polyline fill="none" stroke="#808285" stroke-width="1.5" points="32.925,128.433 37.837,120.215 42.402,118.251 51.879,111.376 
+			61.355,104.501 70.833,107.447 80.309,105.156 89.875,104.174 99.263,105.481 108.74,100.899 127.694,108.757 146.866,110.394 
+			184.555,110.065 222.461,111.049 260.369,109.411 279.496,110.394 		"/>
+	</g>
+</g>
+<g id="axis">
+	<polygon fill="#F9A25E" points="279.5,129 30.5,129 30.5,0 32.5,0 32.5,127 279.5,127 	"/>
+</g>
+</svg>
